@@ -1,6 +1,6 @@
 # Copyright (c) Microsoft Corporation.
 # Licensed under the MIT License.
-FROM ubuntu:18.04
+FROM ubuntu:rolling
 
 # Install python
 RUN apt-get update -y && \
